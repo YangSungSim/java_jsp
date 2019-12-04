@@ -1,0 +1,24 @@
+<!--  -->
+<%--JSP 주석(comment) --%>
+<%-- page 지시어(directive) --%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+
+  //scriptlet(스크립트릿): 변수/구문:JEE 영역(JSP)
+  String str = "abcd"; // JSE 
+  out.println("str : "+str+"<br>"); // JEE
+  // System 클래스의 out 멤버 필드 x 
+  // out: JSP 기본(내장) 객체(인스턴스). 웹브라우저 화면 인쇄
+  // 객체(인스턴스) 생성 과정 바로 사용할 수 있는 객체
+  // 추후 현업에서는 JSTL/EL 혹은 타 태그 라이브러리로 대체되는 경향
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Str : <%=str %>
+</body>
+</html>

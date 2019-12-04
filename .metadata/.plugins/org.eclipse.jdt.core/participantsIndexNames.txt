@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\students\yss\works\jsp1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\174148559.index
+\jsp_20191202_1\src
+D:\students\yss\works\jsp1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2150785159.index
+\jsp_20191202_1\src
+D:\students\yss\works\jsp1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1628442918.index
+\jsp_20191202_1\src
+D:\students\yss\works\jsp1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\42413965.index
+\jsp_20191203\src
