@@ -83,10 +83,14 @@
   // since JDK 1.8 함수형 프로그래밍 (람다(lambda 수식 사용))
   Map<String, String[]> map = request.getParameterMap();
   //map.forEach((k , v) -> System.out.println(k+" : "+v[0]));
-  map.keySet().forEach(k->System.out.println(k+" : "+map.get(k)[0]));
+  //map.keySet().forEach(k->System.out.println(k+" : "+map.get(k)[0]));
+  
+  //map.forEach((k,v) -> {
+	//  System.out.println(k+" : "+v.toString());
+  //});
   
   map.forEach((k,v) -> {
-	  System.out.println(k+" : "+v.toString());
+	  for (String m : v) System.out.println(k+ " : "+m);
   });
   
 %>
