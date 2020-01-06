@@ -49,4 +49,6 @@ public interface MemberService {
 	 * @return 삭제 성공여부
 	 */
 	boolean deleteMember(String memberId) throws Exception;
+	
+	boolean isMEmber(String memberId) throws Exception;
 }

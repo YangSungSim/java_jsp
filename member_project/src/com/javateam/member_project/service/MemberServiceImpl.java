@@ -57,4 +57,9 @@ public class MemberServiceImpl implements MemberService {
 		// TODO Auto-generated method stub
 		return dao.deleteMember(memberId);
 	}
+
+	@Override
+	public boolean isMEmber(String memberId) throws Exception {
+		return dao.isMEmber(memberId);
+	}
 }
